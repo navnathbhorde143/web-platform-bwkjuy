@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>welcome to my profile</title>
+        <meta charset="utf-8">
+        <meta name="keyword" content="profile,my profile,navnath bhorde,bhorde navnath">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="C:\Users\Asus\OneDrive\Documents\GitHub\selfportfolio\icon.png"sizes="16x16 32x32" type="image/png" >
+        <style type="text/css"> 
+            nav{
+                text-align:right;
+                word-spacing:50px;
+                margin-right:100px;
+                font-weight: bold;
+            }
+            header{
+                height:100px;
+                position: sticky;
+                top:0px;
+                color:white;
+                width: 100%;
+            }
+            img{
+                border:1px black;
+                border-radius:100px;
+                margin-left:130px;
+                margin-top:30px;
+            }
+            #home{
+                margin-left:80px;
+                font-size:30px;
+                font-weight:10px;
+            }
+            #aboutmy{
+                text-align:center;
+                margin-left:10px;
+                border-radius:30px;
+            }
+            table{  
+              background-color:rosybrown;
+              border:2px solid black;
+              border-radius:10px;
+              margin-left: 100px;
+              text-align: center;
+              width:80%;
+            }
+            #addskill{
+                background-color:rosybrown;
+                width:500px;
+                border-radius:10px;
+                font-size:25px;
+                margin-left: 40%;
+                margin-top:20px;
+            }
+            td{
+                font-size: 25px;
+            }
+            .fa{
+                padding: 20px;
+                font-size:30px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+            }
+            .fa:hover{
+                opacity:0.7;
+            }
+
+        </style>
+        <script>
+            function home(){
+                document.getElementById("home").style.backgroundColor="black";
+                document.getElementById("home").style.color="white";
+            }
+        </script>
+    </head>
+    <body style="background-color:#D3D3D3">
+        <header>
+            <span style="text-transform:uppercase;font-size:25px;font-weight: bold;margin:50px;text-decoration: underline;">navnath bhorde</span>
+            <nav class="navbar-header">
+                <a href="#home" onclick="home()">HOME</a>
+                <a href="#educationdetails" onclick="about()">ABOUT</a>
+                <a href="#projectdetails">PROJECT</a>
+                <a href="#contact">CONTACT</a>
+            </nav>
+        </header>
+        <hr color="black">
+        <section>
+            <div id="home">
+                <img src="C:\Users\Asus\OneDrive\Documents\GitHub\selfportfolio\selfimage.jpg" height="200px" width="200px" >
+                <div>
+                <h1>Navnath Bhorde</h1>
+                <p>Front end developer | Ui/Ux Designer<br/>Dr.Babasaheb Ambedkar Marathwada University,Aurangabad<br/><address>Jalna,Maharashtra 431203</address><a href="tel:+919665080691">+91 9665080691</a><br><a href="mailto:9nathbhorde@gmail.com">9nathbhorde@gmail.com</a></p>
+                </div>
+            </div>
+            <hr>
+            <div id="educationdetails">
+                <h1 style="text-align: center;font-size:30px;">ABOUT</h1>
+                <hr align="center" width="100px" color="black">
+                <h1><u>EDUCATION DETAILS :</u></h1>
+                    <table border="1" rules:"rows" cellpadding="15px">
+                        <tr>
+                            <td><span style="font-weight: bold;">Rajkunwar college waghrul,jalna</span>--<i>Bachelor of computer science</i><br><small style="font-size:20px;">jun-2018  jun-2021</small><br/><span style="margin-left:70px;">percentage-pursuing </span></td>
+                        </tr>
+                        <tr>
+                            <td><span style="font-weight: bold;">vishwashanti college indewadi,jalna</span>--<i>HSC</i><br><small style="font-size: 20px;">jun-2016  mar-2018</small><br/><span style="margin-left:70px;">percentage-61.69 </span></td>
+                        </tr>
+                        <tr>
+                            <td><span style="font-weight: bold;">Pratibha.m.vidhyalaya kajla,jalna</span>--<i>SSC</i><br><small style="font-size: 20px;">mar-2014</small><br/><span style="margin-left:70px;">percentage-78.40</span></td>
+                        </tr>
+                    </table>
+            </div>
+            <div id="addskill">
+                <details open>
+                    <summary><u><center>SKILLS</center></u></summary>
+                    <ul>
+                        <li>HTML5</li>
+                        <LI>CSS3</LI>
+                        <li>BOOTSTRAP</li>
+                        <LI>JAVASCRIPT</LI>
+                        <li>jQuery</li>
+                        <li>AJAX</li>
+                        <LI>SCSS</LI>
+                        <LI>GIT</LI>
+                    </ul>
+                </details>
+            </div>
+            <div id="aboutmy">
+                <img src="C:\Users\Asus\OneDrive\Documents\GitHub\selfportfolio\selfimage.jpg" height="200px" width="200px">
+                <p style="font-size: 40px;">Excellent understanding of server-side css. Proficiency in HTML5,CSS3,Javascript,and jQuery. Experience in Working with graphic design applications (for example,adobe xd).Experience in creating responsive and adaptive web designs.<br><u>Navnath Bhorde</u></p>
+            </div>
+            <hr>
+            <div id="projectdetails"><h1 style="text-align: center;background-color: black;color: white;">Project Details</h1></div>
+            <div class="row" style="padding:50px;">
+                <div class="column bg-secondary" style="padding:30px;">
+                <div class="card" style="width:25rem;padding:20px;height: 470px;">
+                    <div class="card-body">
+                        <h4 style="text-align: center;text-decoration: underline;">Blood donor website</h4>
+                        <p style="font-size:20px;">created a blood donor website using: html5,css3,javascript,bootstrap.<br>it helps clients to search for new donors and also easily maintain blood donor dates.<br>it also provides features like search donors and blood info.<br>all donor info and blood info show the webpage.</p>
+                    </div>
+                    <div class="card-footer">
+                      <p style="text-align: center;">project link: <a href="https://github.com/navnathbhorde143">Blooddonor website</a></p>
+                    </div>
+                    </div>
+                </div>
+                <div class="column bg-secondary" style="padding:30px;">
+                <div class="card" style="width:25rem; height:470px; padding: 20px;">
+                    <div class="card-body">
+                        <h4 style="text-align: center;text-decoration: underline;">Personal portfolio website</h4>
+                        <p style="font-size: 20px;">this website digitally show the pesonal info.<br>webpage created are home page,about page,project page and contact page.<br>technologies used : html5,css3,bootstrap,</p>
+                    </div>
+                    <div class="card-footer">
+                        <p style="text-align: center;">project link:<a href="https://github.com/navnathbhorde143">personal portfolio resume</a></p>
+                    </div>
+                </div>
+                </div>
+                <div class="column bg-secondary" style="padding:30px;">
+                    <div class="card" style="width:25rem; height:470px; padding:20px;">
+                        <div class="card-body">
+                            <h4 style="text-align: center;text-decoration: underline;">naresh institute website</h4>
+                            <p style="font-size: 20px;">it is digital marketing website of naresh institute.<br>web page created are home page,about page,contact page,services page,sign in and sign up<br> technologies used: html5,css3,bootstrap,jquery</p> 
+                        </div>
+                        <div class="card-footer">
+                            <p style="text-align: center;">project link:<a href="https://github.com/navnathbhorde143">naresh institute website</a></p>
+                        </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <footer class="bg-dark text-center text-white" style="height:270px;" id="contact">
+            <div><p>NAVNATH RAMESHWAR BHORDE<br><address>jalna,Maharashtra-431203</address><a href="tel:+919665080691">+91 9665080691</a><br><a href="mailto:9nathbhorde@gmail.com">9nathbhorde@gmail.com</a></p></div>
+                <div><a href="https://www.linkedin.com/in/navnath-bhorde-491249121" class="fa fa-linkedin"></a>
+                    <a href="https://twitter.com/BhordeNavnath" class="fa fa-twitter"></a>
+                    <a href="https://www.instagram.com/navya_bhorde" class="fa fa-instagram"></a>
+                 </div>
+                 <div>&copy;2021 All rights reserved</div>
+        </footer>
+    </body>
+</html>
